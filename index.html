@@ -1,13 +1,46 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>QuickStock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>QuickStock</h1>
+        <p class="date">9 aprile 2025</p>
+    </header>
+    <main>
+        <section class="watchlist">
+            <h2>Watchlist</h2>
+            <ul>
+                <li>Apple Inc. (AAPL)</li>
+                <li>Microsoft Corp. (MSFT)</li>
+                <li>Alphabet Inc. (GOOGL)</li>
+            </ul>
+        </section>
+        <section class="details">
+            <h2>Dettaglio Titolo: Apple Inc.</h2>
+            <p>Prezzo attuale: <strong>165,32€</strong></p>
+            <p>Min/Max: 160,50 / 168,46</p>
+            <p>Volume: 3.372.000</p>
+            <p>Pattern rilevato: Doppio massimo (ribassista)</p>
+        </section>
+        <section class="news">
+            <h2>Notizie AI</h2>
+            <p>Apple pubblica risultati trimestrali: impatto misto sul settore tech.</p>
+            <p>Analisi AI: possibile correzione secondo pattern tecnico rilevato.</p>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <span>🏠</span>
+            <span>⭐</span>
+            <span>🔍</span>
+            <span>⚙️</span>
+        </nav>
+    </footer>
+</body>
 </html>
